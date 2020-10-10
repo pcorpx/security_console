@@ -27,7 +27,7 @@ Also you should provide your environment with the right sef of variables and the
 * __SECRET_KEY__
   *The value is used for generating cryptographic signature. It is critical data and mustn't be in public*
 * __DB_ENGINE__ 
-  *The value defines database backend for project*
+  *The value defines database backend for the project*
 
 * __DB_HOST__
   *The value contains address of a host used for connecting to the database*
@@ -42,7 +42,9 @@ Also you should provide your environment with the right sef of variables and the
   *The value contains name of a user for connecting to the database*
 
 * __DB_PASSWORD__
-  *The value contains password of a user for connecting to the database*
+  *The value contains password of a user for connecting to the database.  It is critical data and mustn't be in public*
+
+You may put those variables with values in ~/.bash_profile script if your operation system is Linux as follows: `export DB_ENGINE=django.db.backends.postgresql_psycopg2` or keep it in .env file in the working directory of the project.
 
 ### Installation
 
