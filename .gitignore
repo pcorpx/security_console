@@ -1,2 +1,7 @@
 /project/.env
 /Lesson2/*
+__pycache__
+.vscode
+.idea
+Thumbs.db
+.DS_Store
