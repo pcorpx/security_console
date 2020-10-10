@@ -22,6 +22,28 @@ You may use requirements file to prepare your environment:
 
 `pip install -r requirements.txt`
 
+Also you should provide your environment with the right sef of variables and their values:
+
+* __SECRET_KEY__
+  *The value is used for generating cryptographic signature. It is critical data and mustn't be in public*
+* __DB_ENGINE__ 
+  *The value defines database backend for project*
+
+* __DB_HOST__
+  *The value contains address of a host used for connecting to the database*
+
+* __DB_PORT__
+  *The value contains number of a port used for connecting to the database*
+
+* __DB_NAME__
+  *The value contains database name*
+
+* __DB_USER__
+  *The value contains name of a user for connecting to the database*
+
+* __DB_PASSWORD__
+  *The value contains password of a user for connecting to the database*
+
 ### Installation
 
 To start project running enter following command being in project directory:
