@@ -54,4 +54,4 @@ To start project running enter following command being in project directory:
 
 ## Tests
 
-Use your browser to follow this address: <127.0.0.1:8000>
+Use your browser to follow this address: [127.0.0.1:8000](127.0.0.1:8000)
